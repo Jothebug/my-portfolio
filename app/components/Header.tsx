@@ -7,6 +7,11 @@ const DATA = [
     icon: "linkedin.svg",
   },
   { name: "github", url: "https://github.com/Jothebug", icon: "github.svg" },
+  // {
+  //   name: "goodreads",
+  //   url: "https://www.goodreads.com/user/show/66197969-jothebug",
+  //   icon: "goodreads.svg",
+  // },
 ];
 
 export default function Header() {
@@ -38,7 +43,7 @@ export default function Header() {
                   <img
                     src={`/${icon}`}
                     alt={`icon-${name}`}
-                    className="w-6 h-6 filter invert brightness-0"
+                    className="w-7 h-7 filter invert brightness-0"
                   />
                 </a>
               </li>

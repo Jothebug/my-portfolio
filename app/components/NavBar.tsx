@@ -7,7 +7,7 @@ const NavBar = () => {
       <ul id="nav" className="flex items-center justify-center gap-7">
         <li className="current">
           <a className="smoothscroll" href="#home">
-            About
+            Home
           </a>
         </li>
         <li>
