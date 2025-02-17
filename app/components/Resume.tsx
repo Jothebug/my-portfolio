@@ -3,7 +3,7 @@ import SectionItem from "./SectionItem";
 
 export default function Resume() {
   return (
-    <section id={"resume"}>
+    <section id={"resume"} className="pt-9">
       <SectionItem header={"Work Experience"} data={EXPERIENCES} />
       <SectionItem header={"Technical Skills"} data={TECHNOLOGIES} />
       <SectionItem header={"Certifications"} data={CERTIFICATIONS} />
