@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import NavBar from "./NavBar";
 
 const DATA = [
@@ -17,7 +16,6 @@ export default function Header() {
       className="h-screen bg-[url('/images/headerBg.jpg')] bg-cover "
     >
       <NavBar />
-
       <div className="flex h-full flex-col items-center justify-center">
         <h1 className="font-sans font-bold text-[90px] leading-[1.1em] text-white tracking-[-2px] mb-[32px]">
           I am Ha Yen.

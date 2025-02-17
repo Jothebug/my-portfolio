@@ -1,4 +1,4 @@
-import { Header } from "@/pages";
+import { Header } from "./components";
 
 export default function Home() {
   return (
