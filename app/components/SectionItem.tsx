@@ -14,9 +14,9 @@ export default function SectionItem({
   return (
     <div className="flex flex-row w-screen justify-center gap-10">
       <div>
-        <h2 className="font-sans text-lg font-bold tracking-wide uppercase ">
+        <h3 className="font-sans font-semibold tracking-wide uppercase ">
           {header}
-        </h2>
+        </h3>
         <hr className="border-b-1.2 border-teal-500 items-center mt-3" />
       </div>
 

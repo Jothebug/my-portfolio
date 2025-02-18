@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import NavBar from "./NavBar";
 
 const DATA = [
@@ -7,17 +8,12 @@ const DATA = [
     icon: "linkedin.svg",
   },
   { name: "github", url: "https://github.com/Jothebug", icon: "github.svg" },
-  // {
-  //   name: "goodreads",
-  //   url: "https://www.goodreads.com/user/show/66197969-jothebug",
-  //   icon: "goodreads.svg",
-  // },
 ];
 
 export default function Header() {
   return (
     <div
-      id="about"
+      id="home"
       className="h-screen bg-[url('/images/headerBg.jpg')] bg-cover "
     >
       <NavBar />
